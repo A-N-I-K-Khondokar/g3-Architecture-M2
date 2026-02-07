@@ -96,10 +96,15 @@ nav {
 /* footer styles */
 
 /* Responsiveness styles */
+/* very small device */
+
 @media screen and (max-width:576px) {
   nav {
     flex-direction: column;
     gap: 1.5rem;
+  }
+  .nav-links{
+    gap:1rem;
   }
   .nav-title{
     font-size: 2rem;
@@ -112,7 +117,7 @@ nav {
     margin-top: 2.5rem;
   }
   .banner-title{
-    font-size: 2.25rem;
+    font-size: 2rem;
   }
   .banner-description{
     padding: 0 2rem;
@@ -120,5 +125,9 @@ nav {
   .banner-button{
     padding: 20px 20px;
     margin-bottom: 1.125rem;
+  }
+  .btn-primary{
+    padding: 12px 20px;
+    font-size: 12px;
   }
 }

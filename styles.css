@@ -26,6 +26,14 @@ body {
 
 }
 
+.dark-03 {
+  color: rgba(114, 114, 114, 1);
+}
+
+.orange-text {
+  color: rgba(255, 144, 14, 1);
+}
+
 /* header section styles */
 nav {
   display: flex;
@@ -66,9 +74,11 @@ nav {
 .banner-top {
   text-align: center;
   margin-top: 6.375rem;
-  
+
 }
-.banner-title,.banner-description{
+
+.banner-title,
+.banner-description {
   max-width: 53rem;
   margin: 0 auto;
 }
@@ -93,6 +103,31 @@ nav {
   margin-bottom: 3.125rem;
 }
 
+/* quick-feature */
+.quick-feature {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4.75rem;
+  margin-top: 5rem;
+  margin-bottom: 8rem;
+}
+
+.quick-feature-imgs {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.quick-title {
+  font-size: 45px;
+  font-weight: 700;
+}
+.quick-description{
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+}
+
 /* footer styles */
 
 /* Responsiveness styles */
@@ -103,36 +138,60 @@ nav {
     flex-direction: column;
     gap: 1.5rem;
   }
-  .nav-links{
-    gap:1rem;
+
+  .nav-links {
+    gap: 1rem;
   }
-  .nav-link{
+
+  .nav-link {
     font-size: 15px;
   }
-  .nav-title{
+
+  .nav-title {
     font-size: 2rem;
   }
+
   /* banner */
-  .banner-img img{
+  .banner-img img {
     width: 100%;
   }
-  .banner-top{
+
+  .banner-top {
     margin-top: 2.5rem;
   }
-  .banner-title{
+
+  .banner-title {
     font-size: 1.635rem;
   }
-  .banner-description{
+
+  .banner-description {
     padding: 0 2rem;
     font-size: 15px;
   }
-  .banner-button{
+
+  .banner-button {
     padding: 20px 20px;
     margin-bottom: 1.125rem;
   }
-  .btn-primary{
+
+  .btn-primary {
     padding: 12px 20px;
     font-size: 12px;
     margin: 0;
+  }
+  /* quick-feature styles */
+  .quick-feature{
+    flex-direction: column-reverse;
+    margin: 20px 20px;
+  }
+  .quick-feature-imgs{
+    grid-template-columns: repeat(1,1fr);
+    
+  }
+  .quick-feature-imgs img{
+    width: 100%;
+  }
+  .quick-title{
+    font-size: 2rem;
   }
 }

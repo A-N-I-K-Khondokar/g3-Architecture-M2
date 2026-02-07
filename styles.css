@@ -106,6 +106,9 @@ nav {
   .nav-links{
     gap:1rem;
   }
+  .nav-link{
+    font-size: 15px;
+  }
   .nav-title{
     font-size: 2rem;
   }
@@ -117,10 +120,11 @@ nav {
     margin-top: 2.5rem;
   }
   .banner-title{
-    font-size: 2rem;
+    font-size: 1.635rem;
   }
   .banner-description{
     padding: 0 2rem;
+    font-size: 15px;
   }
   .banner-button{
     padding: 20px 20px;
@@ -129,5 +133,6 @@ nav {
   .btn-primary{
     padding: 12px 20px;
     font-size: 12px;
+    margin: 0;
   }
 }
